@@ -1,6 +1,107 @@
-💀 DEATH REF - Elite Reference ViewerDEATH REF is a professional-grade, ultra-minimalist reference viewer built for elite researchers, bug hunters, and developers. It provides a secure, always-on-top floating environment to keep your critical assets visible at all times, eliminating the friction of window-switching."WE BUILD DIFFERENT"📥 Direct Download (Windows EXE)If you want to use the tool instantly without installing Python:Go to the Official v1.0.0 Release Page.Download the DEATH_REF.exe asset from the bottom of the page.Run the file. No installation or setup required.🎯 Cyber-Security & Bug Hunting Use CasesDEATH REF is optimized for high-intensity technical workflows:Payload Cheat Sheets: Keep your SQLi, XSS, or SSRF payload lists floating over Burp Suite or your browser.Proof of Concept (PoC) Comparison: Run exploit videos side-by-side with your terminal to ensure 100% reproduction accuracy.Infrastructure Mapping: Keep target network diagrams or reconnaissance maps visible with adjustable transparency while you scan.Live Log Monitoring: Open live .txt, .json, or .py logs in a dedicated, non-intrusive side panel.✨ Key FeaturesAlways on Top: Never lose focus. Your reference material stays pinned above all other windows.Multi-Format Support: Seamlessly view Images (.jpg, .png), Videos (.mp4, .avi), and Text/Code files.Interactive UI: Fluid Drag & Drop support, Pan & Zoom (Ctrl + Mouse Wheel).Transparency Engine: Built-in slider to adjust opacity (0.1 to 1.0) for stealth monitoring.Minimalist Footprint: Ultra-slim sidebar (30px) designed to maximize screen real estate.🚀 Developer SetupTo run the project from source:Clone the repository:git clone [https://github.com/Death112233/DEATH-opensource.git](https://github.com/Death112233/DEATH-opensource.git)
+# 💀 DEATH REF — Elite Reference Viewer
+
+**DEATH REF** is a professional-grade, ultra-minimalist reference viewer built for elite researchers, bug hunters, and developers.
+
+It provides a secure, always-on-top floating environment designed for high-intensity technical workflows.
+
+> **"WE BUILD DIFFERENT. WE STAY FOCUSED."**
+
+---
+
+## 📥 Direct Download (Windows EXE)
+
+If you want to use the tool instantly without installing Python:
+
+🔗 **Official v1.0.0 Release Page**
+[https://github.com/Death112233/DEATH-opensource/releases/tag/v1.0.0](https://github.com/Death112233/DEATH-opensource/releases/tag/v1.0.0)
+
+### Steps:
+
+1. Go to the release page above
+2. Download **DEATH_REF.exe** from the **Assets** section
+3. Run the file — **No installation required**
+
+---
+
+## 🎯 Cyber-Security & Bug Hunting Use Cases
+
+DEATH REF is optimized for elite technical workflows:
+
+* **Payload Cheat Sheets** — Keep SQLi/XSS payload lists floating over Burp Suite
+* **PoC Comparison** — Run exploit videos side-by-side with your terminal
+* **Infrastructure Mapping** — Keep target maps visible with adjustable transparency
+* **Live Log Monitoring** — Monitor `.txt` or `.py` logs in a dedicated floating panel
+
+---
+
+## ✨ Key Features
+
+* 🔝 **Always on Top** — Stays pinned above all other windows
+* 🗂 **Multi-Format Support** — Images, Videos, and Text/Code files
+* 🎮 **Interactive UI** — Drag & Drop, Pan & Zoom (Ctrl + Scroll)
+* 🌫 **Adjustable Transparency** — Opacity control from `0.1` to `1.0`
+* 🧩 **Ultra-Minimalist Design** — 30px slim sidebar
+
+---
+
+## 🚀 Developer Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Death112233/DEATH-opensource.git
 cd DEATH-opensource
-Install dependencies:pip install customtkinter Pillow opencv-python tkinterdnd2
-Run the application:python death.py
-🛠 Compilation GuideTo build your own standalone, secure executable:python builder.py
-⌨️ ControlsDrag & Drop: Load any file instantly by dropping it into the window.Ctrl + Scroll: Dynamic Zoom.Spacebar: Play/Pause video content.'R' Key: Reset view to default position and scale.Mouse Drag: Pan around images or videos when zoomed in.🤝 Community & SupportJoin us for updates and elite development discussions:Telegram ChannelStay Focused. Build Different.Created by Alone - Elite Development
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install customtkinter Pillow opencv-python tkinterdnd2
+```
+
+### 3️⃣ Run the Application
+
+```bash
+python death.py
+```
+
+---
+
+## 🛠 Compilation Guide
+
+To build your own standalone executable:
+
+```bash
+python builder.py
+```
+
+⚠ **Security Note:**
+For maximum performance and security, using **Nuitka** for compilation is recommended.
+
+---
+
+## ⌨️ Controls
+
+| Action       | Control            |
+| ------------ | ------------------ |
+| Load File    | Drag & Drop        |
+| Zoom         | Ctrl + Mouse Wheel |
+| Play / Pause | Spacebar           |
+| Reset View   | R Key              |
+| Pan / Move   | Left Click + Drag  |
+
+---
+
+## 🤝 Community & Support
+
+Join for updates, builds, and elite development discussions:
+
+📢 Telegram Channel (Add your link here)
+
+---
+
+## 👑 Author
+
+Created by **DEATH**
+
+---
